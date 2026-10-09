@@ -1,0 +1,33 @@
+{
+  "name": "instantboard",
+  "version": "1.0.0",
+  "description": "Remote MCP server for Instantboard. Manage cards and columns from Codex.",
+  "author": {
+    "name": "Instantboard",
+    "url": "https://instantboard.app"
+  },
+  "homepage": "https://instantboard.app",
+  "repository": "https://github.com/instantboard/instantboard-plugin",
+  "license": "MIT",
+  "keywords": ["instantboard", "kanban", "boards", "mcp"],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Instantboard",
+    "shortDescription": "Manage Instantboard cards and columns from Codex.",
+    "longDescription": "Remote MCP server for Instantboard. List boards, read cards, and update columns from Codex. Sign in with Instantboard when Codex asks.",
+    "developerName": "Instantboard",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://instantboard.app",
+    "privacyPolicyURL": "https://instantboard.app/privacy",
+    "termsOfServiceURL": "https://instantboard.app/terms",
+    "defaultPrompt": [
+      "List the boards I can open.",
+      "Show the cards on this board.",
+      "Add a card to the Open column."
+    ],
+    "brandColor": "#B368EC",
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.svg"
+  }
+}

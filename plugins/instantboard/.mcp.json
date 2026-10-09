@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "instantboard": {
+      "type": "http",
+      "url": "https://instantboard.app/mcp"
+    }
+  }
+}

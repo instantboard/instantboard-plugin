@@ -1,0 +1,20 @@
+{
+  "name": "instantboard",
+  "interface": {
+    "displayName": "Instantboard"
+  },
+  "plugins": [
+    {
+      "name": "instantboard",
+      "source": {
+        "source": "local",
+        "path": "./plugins/instantboard"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

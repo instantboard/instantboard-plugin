@@ -2,7 +2,7 @@
 
 ![Instantboard](plugins/instantboard/logo.svg)
 
-Remote [MCP](https://modelcontextprotocol.io) server for [Instantboard](https://instantboard.app). Cursor and Codex install the same plugin from this repository.
+Remote [MCP](https://modelcontextprotocol.io) server for [Instantboard](https://instantboard.app). Cursor, Codex, and Claude install the same plugin from this repository.
 
 Server URL: `https://instantboard.app/mcp`
 
@@ -32,6 +32,15 @@ codex plugin add instantboard@instantboard
 ```
 
 Complete Instantboard sign-in when Codex asks.
+
+## Claude
+
+```bash
+claude plugin marketplace add instantboard/instantboard-plugin
+claude plugin install instantboard@instantboard
+```
+
+Complete Instantboard sign-in when Claude asks. Claude uses the same `.mcp.json` as Codex.
 
 ## License
 

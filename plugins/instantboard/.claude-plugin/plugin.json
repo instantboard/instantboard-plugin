@@ -1,0 +1,16 @@
+{
+  "name": "instantboard",
+  "displayName": "Instantboard",
+  "version": "1.0.0",
+  "description": "Remote MCP for Instantboard. Manage boards, cards, and columns from Claude.",
+  "author": {
+    "name": "Mixitone Limited",
+    "email": "support@instantboard.app",
+    "url": "https://instantboard.app"
+  },
+  "homepage": "https://instantboard.app",
+  "repository": "https://github.com/instantboard/instantboard-plugin",
+  "license": "MIT",
+  "keywords": ["instantboard", "kanban", "boards", "mcp"],
+  "mcpServers": "./.mcp.json"
+}

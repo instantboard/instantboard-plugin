@@ -1,0 +1,15 @@
+{
+  "name": "instantboard",
+  "description": "Instantboard boards, cards, and columns.",
+  "owner": {
+    "name": "Mixitone Limited",
+    "email": "support@instantboard.app"
+  },
+  "plugins": [
+    {
+      "name": "instantboard",
+      "source": "./plugins/instantboard",
+      "description": "Remote MCP for Instantboard. Manage boards, cards, and columns from Claude."
+    }
+  ]
+}
